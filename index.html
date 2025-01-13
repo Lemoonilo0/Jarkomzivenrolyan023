@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">DNS Learning</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#materi" class="nav-link">Materi</a></li>
+                <li><a href="#tugas" class="nav-link">Tugas</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <main>
+        <section class="hero" id="home">
+            <div class="gradient-bg">
+                <div class="gradient-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Domain Name System</h1>
+                <p class="animate-on-scroll delay-1">Memahami DNS dan Implementasinya dalam Jaringan Modern</p>
+                <div class="cta-buttons animate-on-scroll delay-2">
+                    <a href="#materi" class="cta-primary">Mulai Belajar</a>
+                    <a href="#tugas" class="cta-secondary">Lihat Tugas</a>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="materi" class="module-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Materi DNS</h2>
+                <div class="module-grid">
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Pengertian DNS</h3>
+                            <p>Domain Name System (DNS) adalah sistem penamaan hirarki yang digunakan untuk mengidentifikasi komputer, layanan, dan sumber daya lain di Internet atau jaringan pribadi. DNS menerjemahkan nama domain yang mudah diingat ke alamat IP numerik.</p>
+                        </div>
+                    </div>
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Cara Kerja DNS</h3>
+                            <p>DNS bekerja melalui beberapa tahap:
+                            - DNS Query dari Client
+                            - DNS Resolver mencari cache
+                            - Root DNS Server
+                            - TLD DNS Server
+                            - Authoritative DNS Server</p>
+                        </div>
+                    </div>
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Jenis DNS Record</h3>
+                            <p>- A Record: Menghubungkan nama domain dengan alamat IPv4
+                            - AAAA Record: Untuk alamat IPv6
+                            - CNAME: Alias untuk nama domain
+                            - MX Record: Mail exchanger
+                            - NS Record: Nameserver records</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dns-server" class="module-section alt-bg">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">DNS Server</h2>
+                <div class="module-grid">
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Fungsi DNS Server</h3>
+                            <p>DNS Server berperan sebagai penerjemah antara nama domain dan alamat IP. Server ini menyimpan database nama domain dan alamat IP yang terkait.</p>
+                        </div>
+                    </div>
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Jenis DNS Server</h3>
+                            <p>1. Root DNS Server
+                            2. TLD DNS Server
+                            3. Authoritative DNS Server
+                            4. Recursive DNS Server</p>
+                        </div>
+                    </div>
+                    <div class="module-card animate-on-scroll">
+                        <div class="card-content">
+                            <h3>Konfigurasi DNS Server</h3>
+                            <p>Meliputi setup zona DNS, konfigurasi record, pengaturan cache, dan implementasi keamanan DNS seperti DNSSEC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-presentasi" class="module-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Presentasi Video</h2>
+                <div class="video-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/drbPUz5VRPE?si=IdOuzQYDjaC6IUHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Presentasi Pengertian DNS dan Implementasinya dalam Jaringan Modern</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Task Submission Section -->
+<section id="tugas" class="module-section">
+    <div class="container">
+        <h2 class="section-title animate-on-scroll">Pengumpulan Tugas</h2>
+        <div class="submit-section animate-on-scroll">
+            <div class="submission-links">
+                <a href="https://drive.google.com/file/d/1rBlpWhKzHQVETxBDnLq6uwUvkfbMPDOS/view" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 1: Tugas Jaringan kabel dan Nirkabel</span>
+                </a>
+                <a href="https://docs.google.com/document/d/11QB0mj-YNNM0WFZzy_gW_W-x3dzZYyWU/edit" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 2: Resume Media Transmisi Jaringan</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1HQ3il20h4UDbTs68q4FkE6o1A5kkrzXn/view" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 3: Diagram Struktur dan Topologi Jaringan</span>
+                </a>
+                <a href="https://docs.google.com/document/d/11QB0mj-YNNM0WFZzy_gW_W-x3dzZYyWU/edit" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 4: Resume Mater OSI</span>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1Z9FKxIBkTw2TcsrA_5EvUUui7B_IRIDx" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 5: Buat Presentasi TCP/IP</span>
+                </a>
+                <a href="https://iftik.unimus.ac.id/pluginfile.php/42124/assignsubmission_file/submission_files/113400/Tugas%20ipV6-dikompresi.pdf?forcedownload=1" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 6:Presentasi(kelompok)</span>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1-k5vIpF7akj3tXm2MxtY9CjYtMfpGGBi" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 7: Resume Diagram Routing</span>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1elJ5z7XdmOX-LJd-otU9bcnU6FhJ0WsH" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 8: Pendalaman Materi Tentang Routing Dynamic |Kelompok</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1C7SUpt82hLZ9rnHNKGW3fvX7GS_PbexU/view" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 9: Perancangan Topologi Routing Dinamis</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1C7SUpt82hLZ9rnHNKGW3fvX7GS_PbexU/view" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 10: Perancangan Arsitektur Jaringan Client Server</span>
+                </a>
+                <a href="https://docs.google.com/file/d/1ZniVSI19NOUG5oPvW5-cm1mu-K_N3rcF/edit?filetype=msexcel" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 11: Buat tabel Daftar DNS | UDL dan IP</span>
+                </a>
+                <a href="https://docs.google.com/document/d/1W_8WE3MlgY6vXysRFyGx8unTbU07IYVR/edit" class="submit-link">
+                    <i class="fas fa-file-upload"></i>
+                    <span>Tugas 11:Resume QOS</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="module-section alt-bg">
+    <div class="container">
+        <h2 class="section-title animate-on-scroll">Anggota Kelompok</h2>
+        <div class="team-grid animate-on-scroll">
+            <div class="team-card">
+                <h3>Anggota 1</h3>
+                <p>Ketua Kelompok</p>
+                <div class="team-social">
+                    <a href="https://portfolio-member1.com" class="social-icon" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/member1" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card">
+                <h3>Anggota 2</h3>
+                <p>Dokumentasi</p>
+                <div class="team-social">
+                    <a href="https://portfolio-member2.com" class="social-icon" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/member2" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card">
+                <h3>Anggota 3</h3>
+                <p>Programmer</p>
+                <div class="team-social">
+                    <a href="https://portfolio-member3.com" class="social-icon" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/member3" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card">
+                <h3>Anggota 4</h3>
+                <p>Designer</p>
+                <div class="team-social">
+                    <a href="https://portfolio-member4.com" class="social-icon" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/member4" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="team-card">
+                <h3>Anggota 5</h3>
+                <p>Content Writer</p>
+                <div class="team-social">
+                    <a href="https://portfolio-member5.com" class="social-icon" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/member5" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
